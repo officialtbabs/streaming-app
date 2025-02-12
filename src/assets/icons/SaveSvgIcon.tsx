@@ -1,0 +1,16 @@
+import React from 'react';
+import Svg, {Path} from 'react-native-svg';
+
+const SaveSvgIcon = ({color}: {color: string}) => {
+  return (
+    <Svg width="36" height="37" viewBox="0 0 36 37" fill="none">
+      <Path
+        d="M8.99994 9.73698C8.99994 8.77767 9.79361 8 10.7727 8H26.7271C27.7061 8 28.4998 8.77767 28.4998 9.73698V28.1301C28.4998 28.8154 27.7277 29.2307 27.1376 28.8628L19.2257 23.9295C18.9354 23.7485 18.5644 23.7485 18.274 23.9295L10.3622 28.8628C9.77209 29.2307 8.99994 28.8154 8.99994 28.1301V9.73698Z"
+        fill={color}
+        fill-opacity="0.8"
+      />
+    </Svg>
+  );
+};
+
+export default SaveSvgIcon;
